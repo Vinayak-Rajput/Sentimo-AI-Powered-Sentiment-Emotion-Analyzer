@@ -7,12 +7,12 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 # Load models and vectorizers
-sentiment_model = load_model("sentiment_model.h5")
-emotion_model = load_model("emotion_nn_model.h5")
+sentiment_model = load_model("models/sentiment_model.h5")
+emotion_model = load_model("models/emotion_nn_model.h5")
 
-sentiment_vectorizer = joblib.load("vectorizer.pkl")
-emotion_vectorizer = joblib.load("emotion_vectorizer.pkl")
-emotion_label_encoder = joblib.load("emotion_label_encoder.pkl")
+sentiment_vectorizer = joblib.load("models/vectorizer.pkl")
+emotion_vectorizer = joblib.load("models/emotion_vectorizer.pkl")
+emotion_label_encoder = joblib.load("models/emotion_label_encoder.pkl")
 
 # For cleaning emotion inputs
 stop_words = set(stopwords.words('english'))

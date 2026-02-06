@@ -51,7 +51,10 @@ Sentimo is a sophisticated full-stack NLP web application designed to decode the
 ├── models/
 │   ├── sentiment_model.h5      # Pre-trained Sentiment Model
 │   └── emotion_nn_model.h5     # Pre-trained Emotion Model
-├── static/                     # CSS, Javascript, and Images
+└── pickled/
+    ├── emotion_label_encoder.pkl
+    ├── emotion_vectorizer.pkl   
+    └── vectorizer.pkl           
 └── templates/
     ├── index.html              # Main Landing Page
     ├── sentiment.html          # Sentiment Prediction Interface

@@ -1,4 +1,4 @@
-# Sentimo: AI-Powered Sentiment & Emotion Analyzer
+# Sentimo: Customer Sentiment & Analytics Engine
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
